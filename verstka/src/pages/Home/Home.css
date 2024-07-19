@@ -58,7 +58,7 @@
 }
 .container.Home .Home__form_btn:hover {
     cursor: pointer;
-    background-color: hsl(217, 100%, 45%);
+    background-color: hsl(217, 100%, 35%);
 }
 .container.Home .Home__homeImage {
     position: absolute;
