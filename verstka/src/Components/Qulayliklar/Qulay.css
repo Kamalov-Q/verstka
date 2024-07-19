@@ -1,0 +1,48 @@
+.container.Comfort {
+    height: 100vh;
+    background: url("/Bg.png");
+    padding-top: 50px;
+}
+.container.Comfort .Comfort_mainRow {
+    display: flex;
+}
+.container.Comfort .Comfort__mainImg {
+    width: 800px;
+    height: 700px;
+}
+.container.Comfort .Comfort_main_span {
+    color: #135CD0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+.container.Comfort .Comfort_main_header {
+    font-size: 3rem;
+    font-weight: 550;
+    width: 70%;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+.container.Comfort .Comfort_colored {
+    color: #3A7AFF;
+}
+.container.Comfort .Comfort_mainCol {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.container.Comfort .Comfort_mainCol .Comfort_col_header {
+    color: #2B2B2B;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 600;
+}
+.Comfort_col_info {
+    color: #2B2B2B;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 25px;
+}

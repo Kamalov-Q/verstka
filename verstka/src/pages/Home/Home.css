@@ -1,0 +1,77 @@
+.container.Home {
+    margin-top: 50px;
+    padding: 80px 0 0 100px;
+    position: relative;
+    height: 100vh;
+    background: url('/Bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container.Home .Home__header {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.container.Home .Home__header .colored {
+    width: 100%;
+    color: #3382FF;
+}
+.container.Home .Home__info {
+    color: #595959;
+    padding: 10px;
+    width: 40%;
+    font-size: 13px;
+}
+.container.Home .Home__form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #135CD0;
+}
+.container.Home .Home__form_header {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding: 10px 20px;
+    margin: 7px 0 7px 20px;
+}
+.container.Home .Home__form input {
+    padding: 10px 20px;
+    margin: 7px 0 7px 20px;
+    width: 30%;
+    border-radius: 12px;
+    border: 1px solid #3382FF;
+}
+.container.Home .Home__form_btn {
+    width: 140px;
+    height: 40px;
+    background-color: #3382FF;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0 10px 20px;
+    border-radius: 12px;
+    border: none;
+    transition: all .6s;
+}
+.container.Home .Home__form_btn:hover {
+    cursor: pointer;
+    background-color: hsl(217, 100%, 45%);
+}
+.container.Home .Home__homeImage {
+    position: absolute;
+    top: 200px;
+    right: 40%;
+
+}
+.container.Home .Home__homeImg {
+    width: 1000px;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: 99;
+}
